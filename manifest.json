@@ -1,0 +1,8 @@
+{
+  "name": "اپلیکیشن تست من",
+  "short_name": "تست PWA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تست PWA من</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+    <h1>سلام! این اولین PWA من است.</h1>
+    <p>اگر درست انجام شده باشد، مرورگر از شما می‌خواهد که این را نصب کنید.</p>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
